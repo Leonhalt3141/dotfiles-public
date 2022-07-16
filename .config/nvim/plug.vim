@@ -28,6 +28,10 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
+  Plug 'davidhalter/jedi-vim'
+  Plug 'sbdchd/neoformat'
+  Plug 'ervandew/supertab'
+  Plug 'Vimjas/vim-python-pep8-indent'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
